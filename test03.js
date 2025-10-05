@@ -1,5 +1,11 @@
 // operator
-// Arithmetic operator + - * / %
+// Arithmetic operator + - * / % **
+console.log(10 + 5);
+console.log(10 - 5);
+console.log(10 * 5);
+console.log(10 / 5);
+console.log(10 % 3);
+console.log(2 ** 3);
 
 // Comparison operator > < >= <= == === != !==
 
@@ -24,3 +30,12 @@ a++;
 console.log(a);
 a--;
 console.log(a);
+
+// nullish coalescing operator ?? ใช้ตรสวจสอบค่า null หรือ undefined
+let aa = null;
+let bb;
+let cc = 'DTI-SAU';
+
+console.log(aa ?? 'Hello');
+console.log(bb ?? 'Hi');
+console.log(cc ?? 'Hey');
